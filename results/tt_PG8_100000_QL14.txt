@@ -1,0 +1,1257 @@
+ENABLE_QCN			Yes
+USE_DYNAMIC_PFC_THRESHOLD	Yes
+PACKET_PAYLOAD_SIZE		1000
+TOPOLOGY_FILE			mix/topology_dumbbell2hops.txt
+FLOW_FILE			mix/tt_PG8.txt
+TRACE_FILE			mix/trace.txt
+TRACE_OUTPUT_FILE		mix/mix_topology_dumbbell2hops_tt_PG8_P4thMeter95log1.010p1.000.tr
+FCT_OUTPUT_FILE		mix/fct_topology_dumbbell2hops_tt_PG8_P4thMeter95log1.010p1.000.txt
+PFC_OUTPUT_FILE				mix/pfc_topology_dumbbell2hops_tt_PG8_P4thMeter95log1.010p1.000.txt
+SIMULATOR_STOP_TIME		4
+CC_MODE		13
+ALPHA_RESUME_INTERVAL		1
+RATE_DECREASE_INTERVAL		4
+CLAMP_TARGET_RATE		No
+RP_TIMER			300
+EWMA_GAIN			0.00390625
+FAST_RECOVERY_TIMES		1
+RATE_AI				40.0Mb/s
+RATE_HAI			40.0Mb/s
+MIN_RATE		1000Mb/s
+DCTCP_RATE_AI				1000Mb/s
+ERROR_RATE_PER_LINK		0
+L2_CHUNK_SIZE			4000
+L2_ACK_INTERVAL			1
+L2_BACK_TO_ZERO			No
+HAS_WIN		1
+GLOBAL_T		1
+VAR_WIN		1
+FAST_REACT		1
+U_TARGET		0.95
+MI_THRESH		0
+INT_MULTI				4
+MULTI_RATE				0
+SAMPLE_FEEDBACK				0
+PINT_LOG_BASE				1.01
+PINT_PROB				1
+RATE_BOUND		1
+ACK_HIGH_PRIO		0
+LINK_DOWN				0 0 0
+ENABLE_TRACE				0
+P4THMETER_THR				100000
+KMAX_MAP				 100000000000 1600 400000000000 6400
+KMIN_MAP				 100000000000 400 400000000000 1600
+PMAX_MAP				 100000000000 0.2 400000000000 0.2
+BUFFER_SIZE				32
+QLEN_MON_FILE				mix/qlen_topology_dumbbell2hops_tt_PG8_P4thMeter95log1.010p1.000.txt
+QLEN_MON_START				2000000000
+QLEN_MON_END				3000000000
+maxRtt=6240 maxBdp=78000
+Running Simulation.
+ PG:0 , rate: 2.6214 Gbps 
+ PG:1 , rate: 17.0394 Gbps 
+ PG:2 , rate: 17.0394 Gbps 
+ PG:3 , rate: 13.1072 Gbps 
+ PG:4 , rate: 14.4179 Gbps 
+ PG:5 , rate: 10.4858 Gbps 
+ PG:6 , rate: 15.7286 Gbps 
+ PG:7 , rate: 5.2429 Gbps 
+ Time: 2000107 SumRate on endhost from host 11.0.0.1 to 11.0.3.1 : 93.000000 Gbps 
+ PG:0 , rate: 2.6214 Gbps 
+ PG:1 , rate: 17.0394 Gbps 
+ PG:2 , rate: 17.0394 Gbps 
+ PG:3 , rate: 13.1072 Gbps 
+ PG:4 , rate: 14.4179 Gbps 
+ PG:5 , rate: 10.4858 Gbps 
+ PG:6 , rate: 15.7286 Gbps 
+ PG:7 , rate: 5.2429 Gbps 
+ Time: 2000107 SumRate on endhost from host 11.0.1.1 to 11.0.3.1 : 93.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 7.8643 Gbps 
+ PG:2 , rate: 15.7286 Gbps 
+ PG:3 , rate: 15.7286 Gbps 
+ PG:4 , rate: 15.7286 Gbps 
+ PG:5 , rate: 15.7286 Gbps 
+ PG:6 , rate: 15.7286 Gbps 
+ PG:7 , rate: 11.7965 Gbps 
+ Time: 2000207 SumRate on endhost from host 11.0.0.1 to 11.0.2.1 : 93.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 7.8643 Gbps 
+ PG:2 , rate: 15.7286 Gbps 
+ PG:3 , rate: 15.7286 Gbps 
+ PG:4 , rate: 15.7286 Gbps 
+ PG:5 , rate: 15.7286 Gbps 
+ PG:6 , rate: 15.7286 Gbps 
+ PG:7 , rate: 11.7965 Gbps 
+ Time: 2000207 SumRate on endhost from host 11.0.1.1 to 11.0.2.1 : 93.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 15.7286 Gbps 
+ PG:3 , rate: 15.7286 Gbps 
+ PG:4 , rate: 15.7286 Gbps 
+ PG:5 , rate: 15.7286 Gbps 
+ PG:6 , rate: 15.7286 Gbps 
+ PG:7 , rate: 15.7286 Gbps 
+ Time: 2000307 SumRate on endhost from host 11.0.0.1 to 11.0.3.1 : 90.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 15.7286 Gbps 
+ PG:3 , rate: 15.7286 Gbps 
+ PG:4 , rate: 15.7286 Gbps 
+ PG:5 , rate: 15.7286 Gbps 
+ PG:6 , rate: 15.7286 Gbps 
+ PG:7 , rate: 15.7286 Gbps 
+ Time: 2000308 SumRate on endhost from host 11.0.1.1 to 11.0.3.1 : 90.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 15.7286 Gbps 
+ PG:3 , rate: 15.7286 Gbps 
+ PG:4 , rate: 15.7286 Gbps 
+ PG:5 , rate: 15.7286 Gbps 
+ PG:6 , rate: 15.7286 Gbps 
+ PG:7 , rate: 15.7286 Gbps 
+ Time: 2000407 SumRate on endhost from host 11.0.0.1 to 11.0.3.1 : 90.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 15.7286 Gbps 
+ PG:3 , rate: 15.7286 Gbps 
+ PG:4 , rate: 15.7286 Gbps 
+ PG:5 , rate: 15.7286 Gbps 
+ PG:6 , rate: 15.7286 Gbps 
+ PG:7 , rate: 15.7286 Gbps 
+ Time: 2000408 SumRate on endhost from host 11.0.1.1 to 11.0.2.1 : 90.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 15.7286 Gbps 
+ PG:3 , rate: 15.7286 Gbps 
+ PG:4 , rate: 15.7286 Gbps 
+ PG:5 , rate: 15.7286 Gbps 
+ PG:6 , rate: 15.7286 Gbps 
+ PG:7 , rate: 15.7286 Gbps 
+ Time: 2000507 SumRate on endhost from host 11.0.0.1 to 11.0.3.1 : 90.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 15.7286 Gbps 
+ PG:3 , rate: 15.7286 Gbps 
+ PG:4 , rate: 15.7286 Gbps 
+ PG:5 , rate: 15.7286 Gbps 
+ PG:6 , rate: 15.7286 Gbps 
+ PG:7 , rate: 15.7286 Gbps 
+ Time: 2000508 SumRate on endhost from host 11.0.1.1 to 11.0.2.1 : 90.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 3.9322 Gbps 
+ PG:3 , rate: 13.1072 Gbps 
+ PG:4 , rate: 19.6608 Gbps 
+ PG:5 , rate: 19.6608 Gbps 
+ PG:6 , rate: 19.6608 Gbps 
+ PG:7 , rate: 19.6608 Gbps 
+ Time: 2000608 SumRate on endhost from host 11.0.0.1 to 11.0.3.1 : 92.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 3.9322 Gbps 
+ PG:3 , rate: 13.1072 Gbps 
+ PG:4 , rate: 19.6608 Gbps 
+ PG:5 , rate: 19.6608 Gbps 
+ PG:6 , rate: 19.6608 Gbps 
+ PG:7 , rate: 19.6608 Gbps 
+ Time: 2000608 SumRate on endhost from host 11.0.1.1 to 11.0.2.1 : 92.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 24.9037 Gbps 
+ PG:5 , rate: 24.9037 Gbps 
+ PG:6 , rate: 24.9037 Gbps 
+ PG:7 , rate: 24.9037 Gbps 
+ Time: 2000708 SumRate on endhost from host 11.0.0.1 to 11.0.3.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 24.9037 Gbps 
+ PG:5 , rate: 24.9037 Gbps 
+ PG:6 , rate: 24.9037 Gbps 
+ PG:7 , rate: 24.9037 Gbps 
+ Time: 2000708 SumRate on endhost from host 11.0.1.1 to 11.0.3.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 24.9037 Gbps 
+ PG:5 , rate: 24.9037 Gbps 
+ PG:6 , rate: 24.9037 Gbps 
+ PG:7 , rate: 24.9037 Gbps 
+ Time: 2000808 SumRate on endhost from host 11.0.0.1 to 11.0.3.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 24.9037 Gbps 
+ PG:5 , rate: 24.9037 Gbps 
+ PG:6 , rate: 24.9037 Gbps 
+ PG:7 , rate: 24.9037 Gbps 
+ Time: 2000808 SumRate on endhost from host 11.0.1.1 to 11.0.2.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 24.9037 Gbps 
+ PG:5 , rate: 24.9037 Gbps 
+ PG:6 , rate: 24.9037 Gbps 
+ PG:7 , rate: 24.9037 Gbps 
+ Time: 2000908 SumRate on endhost from host 11.0.0.1 to 11.0.3.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 24.9037 Gbps 
+ PG:5 , rate: 24.9037 Gbps 
+ PG:6 , rate: 24.9037 Gbps 
+ PG:7 , rate: 24.9037 Gbps 
+ Time: 2000908 SumRate on endhost from host 11.0.1.1 to 11.0.3.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 24.9037 Gbps 
+ PG:5 , rate: 24.9037 Gbps 
+ PG:6 , rate: 24.9037 Gbps 
+ PG:7 , rate: 24.9037 Gbps 
+ Time: 2001008 SumRate on endhost from host 11.0.0.1 to 11.0.3.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 24.9037 Gbps 
+ PG:5 , rate: 24.9037 Gbps 
+ PG:6 , rate: 24.9037 Gbps 
+ PG:7 , rate: 24.9037 Gbps 
+ Time: 2001008 SumRate on endhost from host 11.0.1.1 to 11.0.3.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 24.9037 Gbps 
+ PG:5 , rate: 24.9037 Gbps 
+ PG:6 , rate: 24.9037 Gbps 
+ PG:7 , rate: 24.9037 Gbps 
+ Time: 2001108 SumRate on endhost from host 11.0.0.1 to 11.0.3.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 24.9037 Gbps 
+ PG:5 , rate: 24.9037 Gbps 
+ PG:6 , rate: 24.9037 Gbps 
+ PG:7 , rate: 24.9037 Gbps 
+ Time: 2001108 SumRate on endhost from host 11.0.1.1 to 11.0.3.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 24.9037 Gbps 
+ PG:5 , rate: 24.9037 Gbps 
+ PG:6 , rate: 24.9037 Gbps 
+ PG:7 , rate: 24.9037 Gbps 
+ Time: 2001209 SumRate on endhost from host 11.0.0.1 to 11.0.3.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 24.9037 Gbps 
+ PG:5 , rate: 24.9037 Gbps 
+ PG:6 , rate: 24.9037 Gbps 
+ PG:7 , rate: 24.9037 Gbps 
+ Time: 2001209 SumRate on endhost from host 11.0.1.1 to 11.0.2.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 24.9037 Gbps 
+ PG:5 , rate: 24.9037 Gbps 
+ PG:6 , rate: 24.9037 Gbps 
+ PG:7 , rate: 24.9037 Gbps 
+ Time: 2001309 SumRate on endhost from host 11.0.0.1 to 11.0.2.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 24.9037 Gbps 
+ PG:5 , rate: 24.9037 Gbps 
+ PG:6 , rate: 24.9037 Gbps 
+ PG:7 , rate: 24.9037 Gbps 
+ Time: 2001309 SumRate on endhost from host 11.0.1.1 to 11.0.3.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 24.9037 Gbps 
+ PG:5 , rate: 24.9037 Gbps 
+ PG:6 , rate: 24.9037 Gbps 
+ PG:7 , rate: 24.9037 Gbps 
+ Time: 2001409 SumRate on endhost from host 11.0.0.1 to 11.0.3.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 24.9037 Gbps 
+ PG:5 , rate: 24.9037 Gbps 
+ PG:6 , rate: 24.9037 Gbps 
+ PG:7 , rate: 24.9037 Gbps 
+ Time: 2001409 SumRate on endhost from host 11.0.1.1 to 11.0.3.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 24.9037 Gbps 
+ PG:5 , rate: 24.9037 Gbps 
+ PG:6 , rate: 24.9037 Gbps 
+ PG:7 , rate: 24.9037 Gbps 
+ Time: 2001509 SumRate on endhost from host 11.0.0.1 to 11.0.2.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 24.9037 Gbps 
+ PG:5 , rate: 24.9037 Gbps 
+ PG:6 , rate: 24.9037 Gbps 
+ PG:7 , rate: 24.9037 Gbps 
+ Time: 2001509 SumRate on endhost from host 11.0.1.1 to 11.0.3.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 24.9037 Gbps 
+ PG:5 , rate: 24.9037 Gbps 
+ PG:6 , rate: 24.9037 Gbps 
+ PG:7 , rate: 24.9037 Gbps 
+ Time: 2001609 SumRate on endhost from host 11.0.0.1 to 11.0.3.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 24.9037 Gbps 
+ PG:5 , rate: 24.9037 Gbps 
+ PG:6 , rate: 24.9037 Gbps 
+ PG:7 , rate: 24.9037 Gbps 
+ Time: 2001609 SumRate on endhost from host 11.0.1.1 to 11.0.3.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 24.9037 Gbps 
+ PG:5 , rate: 24.9037 Gbps 
+ PG:6 , rate: 24.9037 Gbps 
+ PG:7 , rate: 24.9037 Gbps 
+ Time: 2001709 SumRate on endhost from host 11.0.0.1 to 11.0.3.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 24.9037 Gbps 
+ PG:5 , rate: 24.9037 Gbps 
+ PG:6 , rate: 24.9037 Gbps 
+ PG:7 , rate: 24.9037 Gbps 
+ Time: 2001709 SumRate on endhost from host 11.0.1.1 to 11.0.2.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 24.9037 Gbps 
+ PG:5 , rate: 24.9037 Gbps 
+ PG:6 , rate: 24.9037 Gbps 
+ PG:7 , rate: 24.9037 Gbps 
+ Time: 2001809 SumRate on endhost from host 11.0.0.1 to 11.0.3.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 24.9037 Gbps 
+ PG:5 , rate: 24.9037 Gbps 
+ PG:6 , rate: 24.9037 Gbps 
+ PG:7 , rate: 24.9037 Gbps 
+ Time: 2001809 SumRate on endhost from host 11.0.1.1 to 11.0.3.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 24.9037 Gbps 
+ PG:5 , rate: 24.9037 Gbps 
+ PG:6 , rate: 24.9037 Gbps 
+ PG:7 , rate: 24.9037 Gbps 
+ Time: 2001909 SumRate on endhost from host 11.0.0.1 to 11.0.3.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 24.9037 Gbps 
+ PG:5 , rate: 24.9037 Gbps 
+ PG:6 , rate: 24.9037 Gbps 
+ PG:7 , rate: 24.9037 Gbps 
+ Time: 2001910 SumRate on endhost from host 11.0.1.1 to 11.0.3.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 24.9037 Gbps 
+ PG:5 , rate: 24.9037 Gbps 
+ PG:6 , rate: 24.9037 Gbps 
+ PG:7 , rate: 24.9037 Gbps 
+ Time: 2002009 SumRate on endhost from host 11.0.0.1 to 11.0.3.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 24.9037 Gbps 
+ PG:5 , rate: 24.9037 Gbps 
+ PG:6 , rate: 24.9037 Gbps 
+ PG:7 , rate: 24.9037 Gbps 
+ Time: 2002010 SumRate on endhost from host 11.0.1.1 to 11.0.3.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 24.9037 Gbps 
+ PG:5 , rate: 24.9037 Gbps 
+ PG:6 , rate: 24.9037 Gbps 
+ PG:7 , rate: 24.9037 Gbps 
+ Time: 2002109 SumRate on endhost from host 11.0.0.1 to 11.0.2.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 24.9037 Gbps 
+ PG:5 , rate: 24.9037 Gbps 
+ PG:6 , rate: 24.9037 Gbps 
+ PG:7 , rate: 24.9037 Gbps 
+ Time: 2002110 SumRate on endhost from host 11.0.1.1 to 11.0.2.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 24.9037 Gbps 
+ PG:5 , rate: 24.9037 Gbps 
+ PG:6 , rate: 24.9037 Gbps 
+ PG:7 , rate: 24.9037 Gbps 
+ Time: 2002209 SumRate on endhost from host 11.0.0.1 to 11.0.2.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 24.9037 Gbps 
+ PG:5 , rate: 24.9037 Gbps 
+ PG:6 , rate: 24.9037 Gbps 
+ PG:7 , rate: 24.9037 Gbps 
+ Time: 2002210 SumRate on endhost from host 11.0.1.1 to 11.0.3.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 24.9037 Gbps 
+ PG:5 , rate: 24.9037 Gbps 
+ PG:6 , rate: 24.9037 Gbps 
+ PG:7 , rate: 24.9037 Gbps 
+ Time: 2002309 SumRate on endhost from host 11.0.0.1 to 11.0.3.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 24.9037 Gbps 
+ PG:5 , rate: 24.9037 Gbps 
+ PG:6 , rate: 24.9037 Gbps 
+ PG:7 , rate: 24.9037 Gbps 
+ Time: 2002310 SumRate on endhost from host 11.0.1.1 to 11.0.3.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 24.9037 Gbps 
+ PG:5 , rate: 24.9037 Gbps 
+ PG:6 , rate: 24.9037 Gbps 
+ PG:7 , rate: 24.9037 Gbps 
+ Time: 2002410 SumRate on endhost from host 11.0.0.1 to 11.0.2.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 24.9037 Gbps 
+ PG:5 , rate: 24.9037 Gbps 
+ PG:6 , rate: 24.9037 Gbps 
+ PG:7 , rate: 24.9037 Gbps 
+ Time: 2002410 SumRate on endhost from host 11.0.1.1 to 11.0.2.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 24.9037 Gbps 
+ PG:5 , rate: 24.9037 Gbps 
+ PG:6 , rate: 24.9037 Gbps 
+ PG:7 , rate: 24.9037 Gbps 
+ Time: 2002510 SumRate on endhost from host 11.0.0.1 to 11.0.3.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 24.9037 Gbps 
+ PG:5 , rate: 24.9037 Gbps 
+ PG:6 , rate: 24.9037 Gbps 
+ PG:7 , rate: 24.9037 Gbps 
+ Time: 2002510 SumRate on endhost from host 11.0.1.1 to 11.0.3.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 24.9037 Gbps 
+ PG:5 , rate: 24.9037 Gbps 
+ PG:6 , rate: 24.9037 Gbps 
+ PG:7 , rate: 24.9037 Gbps 
+ Time: 2002610 SumRate on endhost from host 11.0.0.1 to 11.0.3.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 24.9037 Gbps 
+ PG:5 , rate: 24.9037 Gbps 
+ PG:6 , rate: 24.9037 Gbps 
+ PG:7 , rate: 24.9037 Gbps 
+ Time: 2002610 SumRate on endhost from host 11.0.1.1 to 11.0.2.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 24.9037 Gbps 
+ PG:5 , rate: 24.9037 Gbps 
+ PG:6 , rate: 24.9037 Gbps 
+ PG:7 , rate: 24.9037 Gbps 
+ Time: 2002710 SumRate on endhost from host 11.0.0.1 to 11.0.3.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 24.9037 Gbps 
+ PG:5 , rate: 24.9037 Gbps 
+ PG:6 , rate: 24.9037 Gbps 
+ PG:7 , rate: 24.9037 Gbps 
+ Time: 2002711 SumRate on endhost from host 11.0.1.1 to 11.0.3.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 24.9037 Gbps 
+ PG:5 , rate: 24.9037 Gbps 
+ PG:6 , rate: 24.9037 Gbps 
+ PG:7 , rate: 24.9037 Gbps 
+ Time: 2002810 SumRate on endhost from host 11.0.0.1 to 11.0.3.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 24.9037 Gbps 
+ PG:5 , rate: 24.9037 Gbps 
+ PG:6 , rate: 24.9037 Gbps 
+ PG:7 , rate: 24.9037 Gbps 
+ Time: 2002811 SumRate on endhost from host 11.0.1.1 to 11.0.3.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 24.9037 Gbps 
+ PG:5 , rate: 24.9037 Gbps 
+ PG:6 , rate: 24.9037 Gbps 
+ PG:7 , rate: 24.9037 Gbps 
+ Time: 2002910 SumRate on endhost from host 11.0.0.1 to 11.0.3.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 24.9037 Gbps 
+ PG:5 , rate: 24.9037 Gbps 
+ PG:6 , rate: 24.9037 Gbps 
+ PG:7 , rate: 24.9037 Gbps 
+ Time: 2002911 SumRate on endhost from host 11.0.1.1 to 11.0.3.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 24.9037 Gbps 
+ PG:5 , rate: 24.9037 Gbps 
+ PG:6 , rate: 24.9037 Gbps 
+ PG:7 , rate: 24.9037 Gbps 
+ Time: 2003010 SumRate on endhost from host 11.0.0.1 to 11.0.3.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 24.9037 Gbps 
+ PG:5 , rate: 24.9037 Gbps 
+ PG:6 , rate: 24.9037 Gbps 
+ PG:7 , rate: 24.9037 Gbps 
+ Time: 2003011 SumRate on endhost from host 11.0.1.1 to 11.0.3.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 24.9037 Gbps 
+ PG:5 , rate: 24.9037 Gbps 
+ PG:6 , rate: 24.9037 Gbps 
+ PG:7 , rate: 24.9037 Gbps 
+ Time: 2003110 SumRate on endhost from host 11.0.0.1 to 11.0.3.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 24.9037 Gbps 
+ PG:5 , rate: 24.9037 Gbps 
+ PG:6 , rate: 24.9037 Gbps 
+ PG:7 , rate: 24.9037 Gbps 
+ Time: 2003111 SumRate on endhost from host 11.0.1.1 to 11.0.3.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 24.9037 Gbps 
+ PG:5 , rate: 24.9037 Gbps 
+ PG:6 , rate: 24.9037 Gbps 
+ PG:7 , rate: 24.9037 Gbps 
+ Time: 2003211 SumRate on endhost from host 11.0.0.1 to 11.0.3.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 24.9037 Gbps 
+ PG:5 , rate: 24.9037 Gbps 
+ PG:6 , rate: 24.9037 Gbps 
+ PG:7 , rate: 24.9037 Gbps 
+ Time: 2003211 SumRate on endhost from host 11.0.1.1 to 11.0.3.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 24.9037 Gbps 
+ PG:5 , rate: 24.9037 Gbps 
+ PG:6 , rate: 24.9037 Gbps 
+ PG:7 , rate: 24.9037 Gbps 
+ Time: 2003311 SumRate on endhost from host 11.0.0.1 to 11.0.3.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 24.9037 Gbps 
+ PG:5 , rate: 24.9037 Gbps 
+ PG:6 , rate: 24.9037 Gbps 
+ PG:7 , rate: 24.9037 Gbps 
+ Time: 2003311 SumRate on endhost from host 11.0.1.1 to 11.0.3.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 5.2429 Gbps 
+ PG:5 , rate: 31.4573 Gbps 
+ PG:6 , rate: 31.4573 Gbps 
+ PG:7 , rate: 31.4573 Gbps 
+ Time: 2003411 SumRate on endhost from host 11.0.0.1 to 11.0.2.1 : 98.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 5.2429 Gbps 
+ PG:5 , rate: 31.4573 Gbps 
+ PG:6 , rate: 31.4573 Gbps 
+ PG:7 , rate: 31.4573 Gbps 
+ Time: 2003411 SumRate on endhost from host 11.0.1.1 to 11.0.3.1 : 98.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 32.7680 Gbps 
+ PG:6 , rate: 32.7680 Gbps 
+ PG:7 , rate: 32.7680 Gbps 
+ Time: 2003511 SumRate on endhost from host 11.0.0.1 to 11.0.3.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 32.7680 Gbps 
+ PG:6 , rate: 32.7680 Gbps 
+ PG:7 , rate: 32.7680 Gbps 
+ Time: 2003511 SumRate on endhost from host 11.0.1.1 to 11.0.2.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 32.7680 Gbps 
+ PG:6 , rate: 32.7680 Gbps 
+ PG:7 , rate: 32.7680 Gbps 
+ Time: 2003611 SumRate on endhost from host 11.0.0.1 to 11.0.3.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 32.7680 Gbps 
+ PG:6 , rate: 32.7680 Gbps 
+ PG:7 , rate: 32.7680 Gbps 
+ Time: 2003611 SumRate on endhost from host 11.0.1.1 to 11.0.2.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 32.7680 Gbps 
+ PG:6 , rate: 32.7680 Gbps 
+ PG:7 , rate: 32.7680 Gbps 
+ Time: 2003711 SumRate on endhost from host 11.0.0.1 to 11.0.3.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 32.7680 Gbps 
+ PG:6 , rate: 32.7680 Gbps 
+ PG:7 , rate: 32.7680 Gbps 
+ Time: 2003712 SumRate on endhost from host 11.0.1.1 to 11.0.3.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 32.7680 Gbps 
+ PG:6 , rate: 32.7680 Gbps 
+ PG:7 , rate: 32.7680 Gbps 
+ Time: 2003811 SumRate on endhost from host 11.0.0.1 to 11.0.3.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 32.7680 Gbps 
+ PG:6 , rate: 32.7680 Gbps 
+ PG:7 , rate: 32.7680 Gbps 
+ Time: 2003812 SumRate on endhost from host 11.0.1.1 to 11.0.2.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 32.7680 Gbps 
+ PG:6 , rate: 32.7680 Gbps 
+ PG:7 , rate: 32.7680 Gbps 
+ Time: 2003911 SumRate on endhost from host 11.0.0.1 to 11.0.3.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 32.7680 Gbps 
+ PG:6 , rate: 32.7680 Gbps 
+ PG:7 , rate: 32.7680 Gbps 
+ Time: 2003912 SumRate on endhost from host 11.0.1.1 to 11.0.2.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 32.7680 Gbps 
+ PG:6 , rate: 32.7680 Gbps 
+ PG:7 , rate: 32.7680 Gbps 
+ Time: 2004011 SumRate on endhost from host 11.0.0.1 to 11.0.3.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 32.7680 Gbps 
+ PG:6 , rate: 32.7680 Gbps 
+ PG:7 , rate: 32.7680 Gbps 
+ Time: 2004012 SumRate on endhost from host 11.0.1.1 to 11.0.3.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 32.7680 Gbps 
+ PG:6 , rate: 32.7680 Gbps 
+ PG:7 , rate: 32.7680 Gbps 
+ Time: 2004111 SumRate on endhost from host 11.0.0.1 to 11.0.3.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 32.7680 Gbps 
+ PG:6 , rate: 32.7680 Gbps 
+ PG:7 , rate: 32.7680 Gbps 
+ Time: 2004112 SumRate on endhost from host 11.0.1.1 to 11.0.2.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 32.7680 Gbps 
+ PG:6 , rate: 32.7680 Gbps 
+ PG:7 , rate: 32.7680 Gbps 
+ Time: 2004211 SumRate on endhost from host 11.0.0.1 to 11.0.3.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 32.7680 Gbps 
+ PG:6 , rate: 32.7680 Gbps 
+ PG:7 , rate: 32.7680 Gbps 
+ Time: 2004212 SumRate on endhost from host 11.0.1.1 to 11.0.3.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 32.7680 Gbps 
+ PG:6 , rate: 32.7680 Gbps 
+ PG:7 , rate: 32.7680 Gbps 
+ Time: 2004311 SumRate on endhost from host 11.0.0.1 to 11.0.3.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 32.7680 Gbps 
+ PG:6 , rate: 32.7680 Gbps 
+ PG:7 , rate: 32.7680 Gbps 
+ Time: 2004312 SumRate on endhost from host 11.0.1.1 to 11.0.2.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 32.7680 Gbps 
+ PG:6 , rate: 32.7680 Gbps 
+ PG:7 , rate: 32.7680 Gbps 
+ Time: 2004411 SumRate on endhost from host 11.0.0.1 to 11.0.3.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 32.7680 Gbps 
+ PG:6 , rate: 32.7680 Gbps 
+ PG:7 , rate: 32.7680 Gbps 
+ Time: 2004412 SumRate on endhost from host 11.0.1.1 to 11.0.3.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 32.7680 Gbps 
+ PG:6 , rate: 32.7680 Gbps 
+ PG:7 , rate: 32.7680 Gbps 
+ Time: 2004511 SumRate on endhost from host 11.0.0.1 to 11.0.3.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 32.7680 Gbps 
+ PG:6 , rate: 32.7680 Gbps 
+ PG:7 , rate: 32.7680 Gbps 
+ Time: 2004512 SumRate on endhost from host 11.0.1.1 to 11.0.2.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 32.7680 Gbps 
+ PG:6 , rate: 32.7680 Gbps 
+ PG:7 , rate: 32.7680 Gbps 
+ Time: 2004611 SumRate on endhost from host 11.0.0.1 to 11.0.3.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 32.7680 Gbps 
+ PG:6 , rate: 32.7680 Gbps 
+ PG:7 , rate: 32.7680 Gbps 
+ Time: 2004613 SumRate on endhost from host 11.0.1.1 to 11.0.3.1 : 96.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 44.5645 Gbps 
+ PG:6 , rate: 44.5645 Gbps 
+ PG:7 , rate: 9.1750 Gbps 
+ Time: 2004711 SumRate on endhost from host 11.0.0.1 to 11.0.2.1 : 97.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 44.5645 Gbps 
+ PG:6 , rate: 44.5645 Gbps 
+ PG:7 , rate: 9.1750 Gbps 
+ Time: 2004713 SumRate on endhost from host 11.0.1.1 to 11.0.2.1 : 97.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 49.8074 Gbps 
+ PG:6 , rate: 49.8074 Gbps 
+ PG:7 , rate: 0.0000 Gbps 
+ Time: 2004812 SumRate on endhost from host 11.0.0.1 to 11.0.3.1 : 98.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 49.8074 Gbps 
+ PG:6 , rate: 49.8074 Gbps 
+ PG:7 , rate: 0.0000 Gbps 
+ Time: 2004813 SumRate on endhost from host 11.0.1.1 to 11.0.2.1 : 98.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 49.8074 Gbps 
+ PG:6 , rate: 49.8074 Gbps 
+ PG:7 , rate: 0.0000 Gbps 
+ Time: 2004912 SumRate on endhost from host 11.0.0.1 to 11.0.3.1 : 98.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 49.8074 Gbps 
+ PG:6 , rate: 49.8074 Gbps 
+ PG:7 , rate: 0.0000 Gbps 
+ Time: 2004913 SumRate on endhost from host 11.0.1.1 to 11.0.3.1 : 98.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 49.8074 Gbps 
+ PG:6 , rate: 49.8074 Gbps 
+ PG:7 , rate: 0.0000 Gbps 
+ Time: 2005012 SumRate on endhost from host 11.0.0.1 to 11.0.3.1 : 98.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 49.8074 Gbps 
+ PG:6 , rate: 49.8074 Gbps 
+ PG:7 , rate: 0.0000 Gbps 
+ Time: 2005013 SumRate on endhost from host 11.0.1.1 to 11.0.2.1 : 98.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 49.8074 Gbps 
+ PG:6 , rate: 49.8074 Gbps 
+ PG:7 , rate: 0.0000 Gbps 
+ Time: 2005112 SumRate on endhost from host 11.0.0.1 to 11.0.3.1 : 98.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 49.8074 Gbps 
+ PG:6 , rate: 49.8074 Gbps 
+ PG:7 , rate: 0.0000 Gbps 
+ Time: 2005113 SumRate on endhost from host 11.0.1.1 to 11.0.2.1 : 98.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 49.8074 Gbps 
+ PG:6 , rate: 49.8074 Gbps 
+ PG:7 , rate: 0.0000 Gbps 
+ Time: 2005212 SumRate on endhost from host 11.0.0.1 to 11.0.2.1 : 98.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 49.8074 Gbps 
+ PG:6 , rate: 49.8074 Gbps 
+ PG:7 , rate: 0.0000 Gbps 
+ Time: 2005213 SumRate on endhost from host 11.0.1.1 to 11.0.2.1 : 98.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 49.8074 Gbps 
+ PG:6 , rate: 49.8074 Gbps 
+ PG:7 , rate: 0.0000 Gbps 
+ Time: 2005312 SumRate on endhost from host 11.0.0.1 to 11.0.3.1 : 98.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 49.8074 Gbps 
+ PG:6 , rate: 49.8074 Gbps 
+ PG:7 , rate: 0.0000 Gbps 
+ Time: 2005313 SumRate on endhost from host 11.0.1.1 to 11.0.2.1 : 98.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 49.8074 Gbps 
+ PG:6 , rate: 49.8074 Gbps 
+ PG:7 , rate: 0.0000 Gbps 
+ Time: 2005413 SumRate on endhost from host 11.0.0.1 to 11.0.2.1 : 98.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 49.8074 Gbps 
+ PG:6 , rate: 49.8074 Gbps 
+ PG:7 , rate: 0.0000 Gbps 
+ Time: 2005413 SumRate on endhost from host 11.0.1.1 to 11.0.2.1 : 98.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 49.8074 Gbps 
+ PG:6 , rate: 49.8074 Gbps 
+ PG:7 , rate: 0.0000 Gbps 
+ Time: 2005513 SumRate on endhost from host 11.0.0.1 to 11.0.3.1 : 98.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 49.8074 Gbps 
+ PG:6 , rate: 49.8074 Gbps 
+ PG:7 , rate: 0.0000 Gbps 
+ Time: 2005513 SumRate on endhost from host 11.0.1.1 to 11.0.2.1 : 98.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 3.9322 Gbps 
+ PG:6 , rate: 95.6826 Gbps 
+ PG:7 , rate: 0.0000 Gbps 
+ Time: 2005613 SumRate on endhost from host 11.0.0.1 to 11.0.2.1 : 98.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 3.9322 Gbps 
+ PG:6 , rate: 95.6826 Gbps 
+ PG:7 , rate: 0.0000 Gbps 
+ Time: 2005614 SumRate on endhost from host 11.0.1.1 to 11.0.3.1 : 98.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 0.0000 Gbps 
+ PG:6 , rate: 99.6147 Gbps 
+ PG:7 , rate: 0.0000 Gbps 
+ Time: 2005713 SumRate on endhost from host 11.0.0.1 to 11.0.2.1 : 99.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 0.0000 Gbps 
+ PG:6 , rate: 99.6147 Gbps 
+ PG:7 , rate: 0.0000 Gbps 
+ Time: 2005714 SumRate on endhost from host 11.0.1.1 to 11.0.3.1 : 99.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 0.0000 Gbps 
+ PG:6 , rate: 99.6147 Gbps 
+ PG:7 , rate: 0.0000 Gbps 
+ Time: 2005813 SumRate on endhost from host 11.0.0.1 to 11.0.3.1 : 99.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 0.0000 Gbps 
+ PG:6 , rate: 99.6147 Gbps 
+ PG:7 , rate: 0.0000 Gbps 
+ Time: 2005814 SumRate on endhost from host 11.0.1.1 to 11.0.3.1 : 99.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 0.0000 Gbps 
+ PG:6 , rate: 99.6147 Gbps 
+ PG:7 , rate: 0.0000 Gbps 
+ Time: 2005914 SumRate on endhost from host 11.0.0.1 to 11.0.3.1 : 99.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 0.0000 Gbps 
+ PG:6 , rate: 99.6147 Gbps 
+ PG:7 , rate: 0.0000 Gbps 
+ Time: 2005914 SumRate on endhost from host 11.0.1.1 to 11.0.2.1 : 99.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 0.0000 Gbps 
+ PG:6 , rate: 99.6147 Gbps 
+ PG:7 , rate: 0.0000 Gbps 
+ Time: 2006014 SumRate on endhost from host 11.0.0.1 to 11.0.2.1 : 99.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 0.0000 Gbps 
+ PG:6 , rate: 99.6147 Gbps 
+ PG:7 , rate: 0.0000 Gbps 
+ Time: 2006014 SumRate on endhost from host 11.0.1.1 to 11.0.3.1 : 99.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 0.0000 Gbps 
+ PG:6 , rate: 99.6147 Gbps 
+ PG:7 , rate: 0.0000 Gbps 
+ Time: 2006114 SumRate on endhost from host 11.0.0.1 to 11.0.3.1 : 99.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 0.0000 Gbps 
+ PG:6 , rate: 99.6147 Gbps 
+ PG:7 , rate: 0.0000 Gbps 
+ Time: 2006115 SumRate on endhost from host 11.0.1.1 to 11.0.3.1 : 99.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 0.0000 Gbps 
+ PG:6 , rate: 99.6147 Gbps 
+ PG:7 , rate: 0.0000 Gbps 
+ Time: 2006214 SumRate on endhost from host 11.0.0.1 to 11.0.2.1 : 99.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 0.0000 Gbps 
+ PG:6 , rate: 99.6147 Gbps 
+ PG:7 , rate: 0.0000 Gbps 
+ Time: 2006215 SumRate on endhost from host 11.0.1.1 to 11.0.3.1 : 99.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 0.0000 Gbps 
+ PG:6 , rate: 99.6147 Gbps 
+ PG:7 , rate: 0.0000 Gbps 
+ Time: 2006314 SumRate on endhost from host 11.0.0.1 to 11.0.3.1 : 99.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 0.0000 Gbps 
+ PG:6 , rate: 99.6147 Gbps 
+ PG:7 , rate: 0.0000 Gbps 
+ Time: 2006315 SumRate on endhost from host 11.0.1.1 to 11.0.3.1 : 99.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 0.0000 Gbps 
+ PG:6 , rate: 99.6147 Gbps 
+ PG:7 , rate: 0.0000 Gbps 
+ Time: 2006414 SumRate on endhost from host 11.0.0.1 to 11.0.2.1 : 99.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 0.0000 Gbps 
+ PG:6 , rate: 99.6147 Gbps 
+ PG:7 , rate: 0.0000 Gbps 
+ Time: 2006415 SumRate on endhost from host 11.0.1.1 to 11.0.3.1 : 99.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 0.0000 Gbps 
+ PG:6 , rate: 99.6147 Gbps 
+ PG:7 , rate: 0.0000 Gbps 
+ Time: 2006514 SumRate on endhost from host 11.0.0.1 to 11.0.2.1 : 99.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 0.0000 Gbps 
+ PG:6 , rate: 99.6147 Gbps 
+ PG:7 , rate: 0.0000 Gbps 
+ Time: 2006515 SumRate on endhost from host 11.0.1.1 to 11.0.3.1 : 99.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 0.0000 Gbps 
+ PG:6 , rate: 99.6147 Gbps 
+ PG:7 , rate: 0.0000 Gbps 
+ Time: 2006614 SumRate on endhost from host 11.0.0.1 to 11.0.2.1 : 99.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 0.0000 Gbps 
+ PG:6 , rate: 99.6147 Gbps 
+ PG:7 , rate: 0.0000 Gbps 
+ Time: 2006615 SumRate on endhost from host 11.0.1.1 to 11.0.3.1 : 99.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 0.0000 Gbps 
+ PG:6 , rate: 99.6147 Gbps 
+ PG:7 , rate: 0.0000 Gbps 
+ Time: 2006714 SumRate on endhost from host 11.0.0.1 to 11.0.2.1 : 99.000000 Gbps 
+ PG:0 , rate: 0.0000 Gbps 
+ PG:1 , rate: 0.0000 Gbps 
+ PG:2 , rate: 0.0000 Gbps 
+ PG:3 , rate: 0.0000 Gbps 
+ PG:4 , rate: 0.0000 Gbps 
+ PG:5 , rate: 0.0000 Gbps 
+ PG:6 , rate: 99.6147 Gbps 
+ PG:7 , rate: 0.0000 Gbps 
+ Time: 2006715 SumRate on endhost from host 11.0.1.1 to 11.0.3.1 : 99.000000 Gbps 
+33.8772
